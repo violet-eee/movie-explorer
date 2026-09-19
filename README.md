@@ -32,4 +32,3 @@ npm run dev
 
 ## Author
 Faria Tasnim Era
-GitHub: [violet-eee](https://github.com/violet-eee)
