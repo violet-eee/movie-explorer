@@ -1,16 +1,35 @@
-# React + Vite
+# 🎬 MovieExplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Movie Explorer application built with React. Users can browse shows, search by title, and view detailed information in a modal.
 
-Currently, two official plugins are available:
+## Live Demo
+https://movie-explorer-pi-cyan.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Home page with Navbar, Hero banner, and Footer
+- Movie Listing page with a responsive grid of reusable cards
+- Search by title (updates the grid as you type)
+- Details modal with image, summary, rating, release date, genres, language, status and network
+- Fully responsive: 1 column on mobile, up to 4 columns on desktop
 
-## React Compiler
+## Tech Stack
+- React (Vite)
+- React Router
+- Tailwind CSS
+- TVMaze API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## API Endpoints Used
+- `GET https://api.tvmaze.com/shows`
+- `GET https://api.tvmaze.com/search/shows?q=:query`
 
-## Expanding the ESLint configuration
+## Run Locally
+```bash
+git clone https://github.com/violet-eee/movie-explorer.git
+cd movie-explorer
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+Faria Tasnim Era
+GitHub: [violet-eee](https://github.com/violet-eee)
